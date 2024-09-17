@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Resume Builder by Adam Minhas</h1>
+    <form>
+        <fieldset id="personalInfo"> <legend>PERSONAL INFORMATION</legend>
+            <br>
+            Name: <input type="text" name="myName" id="Name" placeholder="Enter your name">
+            <br>
+            <br>
+            Age: <input type="number" name="myAge" id="Age" placeholder="Enter your age">
+            <br>
+            <br>
+            Gender: <input type="radio" name="myGender" title="gender"> Male
+                    <input type="radio" name="myGender" title="gender"> Female
+            <br>
+            <br>
+            Email: <input type="text" name="myEmail" placeholder="Enter your email">
+            <br>
+            <br>
+            Contact No: <input type="text" name="myContact" placeholder="Enter your contact number">
+        </fieldset>
+        <br>
+        <br>
+        <fieldset> <legend>EDUCATION</legend>
+        <textarea name="myEducation" id="education" rows="7" placeholder="Write about your Education"></textarea>
+        </fieldset>
+        <br>
+        <br>
+        <fieldset> <legend>SKILLS</legend>
+            <textarea name="mySkills" id="skills" rows="7" placeholder="Write the skills that you have"></textarea>
+        </fieldset>
+        <br>
+        <br>
+        <fieldset> <legend>EXPERIENCE</legend>
+        <textarea name="myExperience" id="experience" rows="7" placeholder="Write about your experience"></textarea>
+        
+        </fieldset>
+        <br>
+        <br>
+        <button type="submit">Submit</button> <button type="reset">Reset</button>
+    </form>
+</body>
+</html>

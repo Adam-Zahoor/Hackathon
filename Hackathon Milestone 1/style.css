@@ -1,0 +1,67 @@
+* {
+    align-items: center;
+    font-size: 15px;
+    text-align: center;
+}
+
+#personalInfo {
+    align-items: center;
+    margin-right: 25px;
+    margin-left: 25px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px ;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+body {
+    background-color: antiquewhite;
+    text-align: center;
+    align-items: center;
+}
+
+input {
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+form {
+    margin: 10px 25px 10px 10px;
+    padding: 10px 5px 10px 5px;
+    align-items: center;
+    text-align: center;
+}
+
+legend {
+    font-weight: 500;
+}
+
+fieldset {
+    padding: 10px 10px 10px 10px;
+    border: 2px solid grey;
+    margin: 20px 5px 20px 5px;
+    text-align: center;
+    border-radius: 5px;
+    align-items: center;
+    padding: 10px 0px 0px 10px;
+}
+
+button {
+    font-size: 18px;
+    cursor: pointer;
+    align-items: center;
+}
+
+textarea {
+    width: 200px;
+    height: 120px;
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    align-items: center;
+}

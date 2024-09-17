@@ -1,0 +1,95 @@
+
+body {
+    padding: 0;
+}
+
+form {
+    text-align: center;
+    padding: 0px 20px 0px 20px;
+    align-items: center;
+    position: relative;
+    margin: auto;
+    line-height: 40px;
+    width: auto;
+    height: auto;
+    font-size: 200px;
+    background-color: rgb(248, 239, 229);
+    border: 3px solid black;
+}
+
+
+fieldset {
+    position: relative;
+    border-radius: 5px;
+    background-color: rgb(229, 235, 201);
+    margin: auto;
+    padding-right: 20px;
+    height: auto;
+    width: auto;
+    font-size: 30px;
+    height: auto;
+    width: auto;
+}
+
+input {
+    position: relative;
+    text-align: center;
+    margin-top: auto;
+    padding: 8px;
+    box-sizing: border-box;
+    font-size: auto;
+    width: auto;
+    height: auto;
+}
+
+textarea {
+    position: relative;
+    font-size: 15px;
+    margin-top: 4px;
+    padding: 8px;
+    width: auto;
+    box-sizing: border-box;
+}
+
+legend {
+    font-weight: 900;
+    font-family: cursive;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-size: auto;
+    position: relative;
+}
+
+button {
+    background-color: rgb(234, 223, 223);
+    align-items: center;
+    text-align: center;
+    position: relative;
+    font-size: 20px;
+    height: auto;
+    width: auto;
+    border-color: black;
+    margin-bottom: 20px;
+}
+
+#displayingResume {
+    background-color: rgb(229, 235, 201);
+    height: auto;
+    width: auto;
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+    align-items: center;
+    border: 2px solid black;
+}
+
