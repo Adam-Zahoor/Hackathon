@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editable Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>EDITABLE RESUME BUILDER by Adam Minhas</h1>
+
+    <form id="myForm">
+        <fieldset>
+            <legend>PERSONAL INFORMATION</legend>
+            <label>Name:</label>
+            <input id="name" name="myName" type="text" placeholder="Enter your Name">
+            <br>
+            <label>Age:</label>
+            <input id="age" name="myAge" type="number" placeholder="Enter your Age">
+            <br>
+            <label>Email:</label>
+            <input id="email" name="myEmail" type="text" placeholder="Enter your Email">
+            <br>
+            <label>Contact No.:</label>
+            <input id="contact" name="myContactNo" type="text" placeholder="Enter your Number">
+        </fieldset>
+
+        <fieldset>
+            <legend>EDUCATION</legend>
+            <textarea title="aboutMyEducation" name="myEducation" id="edu" rows="10" placeholder="Write about your education"></textarea>
+        </fieldset>
+
+        <fieldset>
+            <legend>EXPERIENCE</legend>
+            <textarea title="aboutMyExperience" name="myExperience" id="exp" rows="5" placeholder="Write about your Work Experience"></textarea>
+        </fieldset>
+
+        <fieldset>
+            <legend>SKILLS:</legend>
+            <textarea title="aboutMySkills" name="mySkills"  id="skills" rows="5" placeholder="Write about your skills"></textarea>
+        </fieldset>
+
+        <button type="submit" id="submitButton">Generate Resume</button>    <button type="reset" id="resetButton">Reset</button>
+
+        <div id="displayingResume" contenteditable="true"></div>
+
+    </form>
+    
+    <script src="script.js"></script>
+</body>
+</html>
